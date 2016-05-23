@@ -1,0 +1,38 @@
+{
+  "name": "ember-qunit-notifications",
+  "version": "1.0.0",
+  "description": "Tomster-ified qunit-notifications",
+  "homepage": "https://github.com/dockyard/ember-qunit-notifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  },
+  "ember-addon": {
+    "main": "index.js",
+    "after": [
+      "ember-cli-qunit"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DockYard/ember-qunit-notifications.git"
+  },
+  "keywords": [
+    "ember-addon",
+    "ember",
+    "qunit"
+  ],
+  "authors": [
+    "Brian Cardarella <bcardarella@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DockYard/ember-qunit-notifications/issues"
+  },
+  "dependencies": {
+    "broccoli-funnel": "^1.0.1",
+    "broccoli-merge-trees": "^1.1.1",
+    "qunit-notifications": "0.1.0",
+    "resolve": "^1.1.7"
+  }
+}
