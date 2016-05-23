@@ -1,6 +1,6 @@
 {
   "name": "ember-qunit-notifications",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Tomster-ified qunit-notifications",
   "homepage": "https://github.com/dockyard/ember-qunit-notifications",
   "main": "index.js",
